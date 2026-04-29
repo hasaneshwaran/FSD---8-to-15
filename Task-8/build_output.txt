@@ -1,0 +1,53 @@
+﻿mvn : WARNING: A terminally 
+deprecated method in 
+sun.misc.Unsafe has been 
+called
+At line:1 char:1
++ mvn compile exec:java -Dexe
+c.mainClass="com.employee.mai
+n.MainApp" >  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (WARNING  
+  : A term...has been call   
+ ed:String) [], RemoteExc    
+eption
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+WARNING: sun.misc.Unsafe::sta
+ticFieldBase has been called 
+by com.google.inject.internal
+.aop.HiddenClassDefiner (file
+:/C:/Program%20Files/apache-m
+aven-3.9.11/lib/guice-5.1.0-c
+lasses.jar)
+WARNING: Please consider 
+reporting this to the 
+maintainers of class com.goog
+le.inject.internal.aop.Hidden
+ClassDefiner
+WARNING: sun.misc.Unsafe::sta
+ticFieldBase will be removed 
+in a future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< org.example:FSD-T-08 >------------------------
+[INFO] Building FSD-T-08 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.408 s
+[INFO] Finished at: 2026-03-17T17:49:35+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Unknown lifecycle phase ".mainClass=com.employee.main.MainApp". You must specify a valid lifecycle phase or a goal in the format <plugin-prefix>:<goal> or <plugin-group-id>:<plugin-artifact-id>[:<plugin-version>]:<goal>. Available lifecycle phases are: pre-clean, clean, post-clean, validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy, pre-site, site, post-site, site-deploy. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/LifecyclePhaseNotFoundException
